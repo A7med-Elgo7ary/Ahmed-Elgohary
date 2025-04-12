@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Al-Gohary Projects</title>
+    <link rel="stylesheet" href="CSS/Projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+
+     <!-- navigation Bar-->
+     <div class="nav-container">
+        <div class="user-controls">    
+            <div class="menu-item profile">
+                <a href="profilecard.html" onclick="return false;">
+                    <img src="Images/AhmedCarton.png" alt="Profile" onclick="toggleProfileCard()" onmouseenter="showProfileCard()" onmouseleave="hideProfileCard()">
+                </a>
+            </div>
+            
+            <div id="profile-card" class="profile-card">
+                      <div class="wrapper-profile">
+                        <div class="img-area">
+                          <div class="inner-area">
+                            <img src="Images/Ahmed2.png" alt="">
+                          </div>
+                        </div>
+                        <div class="icon arrow" onclick="toggleProfileCard()"><i class="fas fa-arrow-left"></i></div>
+                        <div class="name">Ahmed Elgohay</div>
+                        <div class="about">Computer Science Engineer</div>
+                        <div class="social-icons">
+                          <a href="https://linkedin.com/in/a7med-elgo7ary" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                          <a href="https://github.com/A7med-Elgo7ary" class="github"><i class="fab fa-github"></i></a>
+                          <a href="https://www.kaggle.com/a7medelgo7ary" class="kaggle"><i class="fab fa-kaggle"></i></a>
+                          <a href="https://drive.google.com/file/d/10LLyH3M0yfqYXQGAvbNBSote1dhGwYI7/view?usp=sharing" download class="cv"><i class="fas fa-file-download"></i></a>
+                        </div>
+                    
+                        <div class="buttons">
+                          <button>
+                            <a href="https://wa.me/201009515837" class="whatsapp" style="text-decoration: none; color: inherit;">
+                              <i class="fab fa-whatsapp"></i> Message
+                            </a>
+                          </button>
+                    
+                          <button onclick="window.location.href='https://drive.google.com/file/d/1j78AMhuUczLHYNBmyHDHcd5-9IfXEmAs/view?usp=sharing';" style="text-decoration: none; color: #31344b;font-family: 'Poppins', sans-serif;">
+                            <i class="fas fa-file-pdf" style="margin-right: 5px;"></i>ATS CV
+                          </button>
+                        </div>
+                    
+                        <div class="social-share">
+                          <div class="row">
+                            <i class="far fa-heart"></i>
+                            <i class="icon-2 fas fa-heart"></i>
+                            <span>20.4k</span>
+                          </div>
+                          <div class="row">
+                            <i class="far fa-comment"></i>
+                            <i class="icon-2 fas fa-comment"></i>
+                            <span>14.3k</span>
+                          </div>
+                          <div class="row">
+                            <i class="fas fa-share"></i>
+                            <span>12.8k</span>
+                          </div>
+                        </div>
+                      </div>
+
+            </div>
+
+
+
+            <div class="menu-item Settings">             
+                <a href="#"><i class="fas fa-cog"></i></a>         
+            </div>    
+        </div>
+
+
+        
+        <nav class="menu">         
+            <div class="menu-item Home">             
+                <a href="index.Html"><i class="fas fa-home"></i> HOME</a>         
+            </div>         
+                 
+            <div class="menu-item Projects">             
+                <a href="Projects.HTML"><i class="fas fa-briefcase"></i>PROJECTS</a>
+            </div>     
+            <div class="menu-item Posts">             
+                <a href="Posts.html"><i class="fas fa-pencil-alt"></i>POSTS</a>         
+            </div>     
+            <div class="menu-item About">             
+                <a href="About.html"><i class="fas fa-info-circle"></i>ABOUT</a>         
+            </div>
+        </nav>
+        
+        <div class="user-controls">    
+            
+            <div class="menu-item Settings">             
+                <a href="#"><i class="fas fa-cog"></i></a>         
+            </div>    
+            
+            <div class="menu-item profile">
+                <a href="profilecard.html" onclick="return false;">
+                    <img src="Images/AhmedCarton.png" alt="Profile" onclick="toggleProfileCard()" onmouseenter="showProfileCard()" onmouseleave="hideProfileCard()">
+                </a>
+            </div>
+            
+            <div id="profile-card" class="profile-card">
+                      <div class="wrapper-profile">
+                        <div class="img-area">
+                          <div class="inner-area">
+                            <img src="Images/Ahmed2.png" alt="">
+                          </div>
+                        </div>
+                        <div class="icon arrow" onclick="toggleProfileCard()"><i class="fas fa-arrow-left"></i></div>
+                        <div class="name">Ahmed Elgohay</div>
+                        <div class="about">Computer Science Engineer</div>
+                        <div class="social-icons">
+                          <a href="https://linkedin.com/in/a7med-elgo7ary" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                          <a href="https://github.com/A7med-Elgo7ary" class="github"><i class="fab fa-github"></i></a>
+                          <a href="https://www.kaggle.com/a7medelgo7ary" class="kaggle"><i class="fab fa-kaggle"></i></a>
+                          <a href="https://drive.google.com/file/d/10LLyH3M0yfqYXQGAvbNBSote1dhGwYI7/view?usp=sharing" download class="cv"><i class="fas fa-file-download"></i></a>
+                        </div>
+                    
+                        <div class="buttons">
+                          <button>
+                            <a href="https://wa.me/201009515837" class="whatsapp" style="text-decoration: none; color: inherit;">
+                              <i class="fab fa-whatsapp"></i> Message
+                            </a>
+                          </button>
+                    
+                          <button onclick="window.location.href='https://drive.google.com/file/d/1j78AMhuUczLHYNBmyHDHcd5-9IfXEmAs/view?usp=sharing';" style="text-decoration: none; color: #31344b;font-family: 'Poppins', sans-serif;">
+                            <i class="fas fa-file-pdf" style="margin-right: 5px;"></i>ATS CV
+                          </button>
+                        </div>
+                    
+                        <div class="social-share">
+                          <div class="row">
+                            <i class="far fa-heart"></i>
+                            <i class="icon-2 fas fa-heart"></i>
+                            <span>20.4k</span>
+                          </div>
+                          <div class="row">
+                            <i class="far fa-comment"></i>
+                            <i class="icon-2 fas fa-comment"></i>
+                            <span>14.3k</span>
+                          </div>
+                          <div class="row">
+                            <i class="fas fa-share"></i>
+                            <span>12.8k</span>
+                          </div>
+                        </div>
+                      </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="cursor"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="Projects-container">
+        <div class="header">
+            <h1>My Projects</h1>
+            <h3>Explore my work in AI, Cybersecurity, and Embedded Systems.</h3>
+        </div>
+
+
+    <div class="container">
+        
+            <!-- First Project Card -->
+         <div class="project-card">
+            <div class="project-content">
+                <div class="project-image-container">
+                    <img src="Images/projects/greenhouse.png" 
+                         alt="Project Preview" 
+                         class="project-image-main">
+                    <div class="image-overlay"></div>
+                </div>
+
+                <div class="project-details">
+                    <div class="project-header">
+                        <h2>Smart Agriculture Greenhouse System Using IOT Technology</h2>
+                        <p>Our project introduces an IoT-based intelligent greenhouse system, developed as my graduation project for a Bachelor's degree, designed to optimize crop growth, reduce environmental impact, and support sustainable agriculture. It integrates **Arduino Nano 33 IoT** with advanced sensors and actuators to monitor and control environmental conditions like temperature, humidity, soil moisture, and light. A **mobile app** provides role-based access (Admin, Farmer, Visitor) for real-time monitoring and control, while **AI** analyzes sensor data to predict optimal growth conditions and detect plant diseases. The system ensures robust **IoT security** through TOTP, RC4 encryption, and MD5 hashing, and leverages **Firebase** for cloud-based management, enabling scalability and remote access. This innovation aims to enhance agricultural productivity, promote sustainability, and demonstrate the practical application of IoT and AI technologies in modern farming.</p>
+                    </div>
+
+                    <div class="features-section">
+                        <h3>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M7 7h10v10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Key Features
+                        </h3>
+                        <ul>
+                           
+                           <li>Automated Climate and Soil Optimization System</li>
+                           <li>Multi-Sensor Environmental Monitoring Network</li>
+                           <li>AI-Driven Growth Analytics and Disease Prediction</li>
+                           <li>Role-Based Mobile Control Interface Platform</li>
+                           <li>Encrypted IoT Data Transmission Protocols</li>
+                           <li>Cloud-Based Remote Management via Firebase</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-section">
+                        <h3>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 18L22 12L16 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 6L2 12L8 18" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Technologies Used
+                        </h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Arduino Nano 33 IoT</span>
+                            <span class="tech-tag">Advanced Sensors</span>
+                            <span class="tech-tag">Actuators</span>
+                            <span class="tech-tag">Mobile Application </span>
+                            <span class="tech-tag">Artificial Intelligence</span>
+                            <span class="tech-tag">IoT Security Protocols</span>
+                            <span class="tech-tag">Cloud Platform (Firebase)</span>
+                            <span class="tech-tag">Wireless Communication</span>
+                        </div>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/project" class="btn btn-github">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                        <a href="#demo" class="btn btn-demo">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Project Card -->
+        <div class="project-card reverse">
+            <div class="project-content">
+                <div class="project-image-container">
+                    <img src="Images/projects/imageclassification.png" 
+                         alt="Project Preview" 
+                         class="project-image-main">
+                    <div class="image-overlay"></div>
+                </div>
+
+                <div class="project-details">
+                    <div class="project-header">
+                        <h2>Teachable Machine General Image Classification</h2>
+                        <p>Developed an Advanced Image Classification Platform featuring a custom hyperparameter tuning interface, GAN integration, and Azure AI services for accurate classification. 
+                            Deployed the platform via Azure App Services with a user-friendly interface, supporting multiple image types and classifications for versatile use cases.</p>
+                    </div>
+
+                    <div class="features-section">
+                        <h3>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M7 7h10v10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Key Features
+                        </h3>
+                        <ul>
+                            <li>Custom Hyperparameter Tuning Interface</li>
+                            <li>Integrated GAN (Generative Adversarial Networks) Capabilities</li>
+                            <li>Azure AI Services for Image Classification</li>
+                            <li>Web Deployment via Azure App Services</li>
+                            <li>User-Friendly Interface for Multiple Image Types</li>
+                            <li>Versatile Image Classification Functionality</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-section">
+                        <h3>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 18L22 12L16 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 6L2 12L8 18" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Technologies Used
+                        </h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Azure AI Services </span>
+                            <span class="tech-tag">Generative Adversarial Networks (GANs)</span>
+                            <span class="tech-tag">Azure App Services</span>
+                            <span class="tech-tag">MLflow</span>
+                            <span class="tech-tag">Hugging Face</span>
+                            <span class="tech-tag">TML/CSS/JavaScript</span>
+                            <span class="tech-tag">Flask/Django</span>
+                        </div>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/analytics-dashboard" class="btn btn-github">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                        <a href="#demo" class="btn btn-demo">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="field-container">
+            <!-- Main Category -->
+            <div class="field-title" onclick="toggleMainField(this)">
+                <div>
+                    <i class="fas fa-brain field-icon"></i>
+                    Artificial Intelligence
+                </div>
+                <i class="fas fa-chevron-down toggle-icon"></i>
+            </div>
+            
+            <!-- Main Category Content -->
+            <div class="field-content">
+
+                <!-- Machine Learning Container -->
+                <div class="sub-field-container">
+                    <!-- Subcategory Title -->
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-brain field-icon"></i>
+                            Machine Learning
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <!-- Subcategory Content -->
+                    <div class="sub-field-content">
+                        <!-- ML Projects -->
+                        <div class="project-card">
+                            <img src="Images/Ahmed2.png" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Add more AI projects here -->
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- deep Learning Container -->
+                <div class="sub-field-container">
+                    <!-- Subcategory Title -->
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-brain field-icon"></i>
+                            deep Learning
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <!-- Subcategory Content -->
+                    <div class="sub-field-content">
+                        <!-- ML Projects -->
+                        <div class="project-card">
+                            <img src="Images/Ahmed2.png" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Add more AI projects here -->
+                    </div>
+                </div>
+
+
+
+
+
+                
+                <!-- Natural Language Processing  Container -->
+                <div class="sub-field-container">
+                    <!-- Subcategory Title -->
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-brain field-icon"></i>
+                            Natural Language Processing 
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <!-- Subcategory Content -->
+                    <div class="sub-field-content">
+                        <!-- ML Projects -->
+                        <div class="project-card">
+                            <img src="Images/Ahmed2.png" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Add more AI projects here -->
+                    </div>
+                </div>
+
+                <!-- Computer Vision Container -->
+                <div class="sub-field-container">
+                    <!-- Subcategory Title -->
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-brain field-icon"></i>
+                            Computer Vision
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <!-- Subcategory Content -->
+                    <div class="sub-field-content">
+                        <!-- ML Projects -->
+                        <div class="project-card">
+                            <img src="Images/Ahmed2.png" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="ml-project-image.jpg" alt="ML Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Machine Learning Project</h3>
+                                <p>A sophisticated ML model for prediction using advanced algorithms.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Add more AI projects here -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="field-container">
+            <!-- Cybersecurity Main Category -->
+            <div class="field-title" onclick="toggleMainField(this)">
+                <div>
+                    <i class="fas fa-shield-alt field-icon"></i>
+                    Cybersecurity
+                </div>
+                <i class="fas fa-chevron-down toggle-icon"></i>
+            </div>
+            
+            <!-- Main Category Content -->
+            <div class="field-content">
+                <!-- Network Security Subcategory -->
+                <div class="sub-field-container">
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-network-wired field-icon"></i>
+                            Network Security
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <div class="sub-field-content">
+                        <div class="project-card">
+                            <img src="security-project-image.jpg" alt="Security Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Security Analysis Tool</h3>
+                                <p>Advanced security analysis tool for vulnerability detection.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="security-project-image.jpg" alt="Security Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Security Analysis Tool</h3>
+                                <p>Advanced security analysis tool for vulnerability detection.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="security-project-image.jpg" alt="Security Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Security Analysis Tool</h3>
+                                <p>Advanced security analysis tool for vulnerability detection.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Web Security Subcategory -->
+                <div class="sub-field-container">
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-globe field-icon"></i>
+                            Web Security
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <div class="sub-field-content">
+                        <div class="project-card">
+                            <img src="security-project-image.jpg" alt="Security Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Security Analysis Tool</h3>
+                                <p>Advanced security analysis tool for vulnerability detection.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="security-project-image.jpg" alt="Security Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Security Analysis Tool</h3>
+                                <p>Advanced security analysis tool for vulnerability detection.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="security-project-image.jpg" alt="Security Project" class="project-image">
+                            <div class="project-info">
+                                <h3>Security Analysis Tool</h3>
+                                <p>Advanced security analysis tool for vulnerability detection.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        <!-- Add web security projects here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="field-container">
+            <!-- Embedded Systems Main Category -->
+            <div class="field-title" onclick="toggleMainField(this)">
+                <div>
+                    <i class="fas fa-microchip field-icon"></i>
+                    Embedded Systems
+                </div>
+                <i class="fas fa-chevron-down toggle-icon"></i>
+            </div>
+            
+            <!-- Main Category Content -->
+            <div class="field-content">
+                <!-- IoT Subcategory -->
+                <div class="sub-field-container">
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-wifi field-icon"></i>
+                            IoT Projects
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <div class="sub-field-content">
+                        <div class="project-card">
+                            <img src="embedded-project-image.jpg" alt="Embedded Project" class="project-image">
+                            <div class="project-info">
+                                <h3>IoT Device Controller</h3>
+                                <p>Smart IoT device controller with real-time monitoring capabilities.</p>
+                                <a href="#" class="github-btn">View on GitHub</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Microcontrollers Subcategory -->
+                <div class="sub-field-container">
+                    <div class="sub-field-title" onclick="toggleSubField(this, event)">
+                        <div>
+                            <i class="fas fa-microchip field-icon"></i>
+                            Microcontrollers
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    
+                    <div class="sub-field-content">
+                        <div class="project-card">
+                            <img src="Images/projects/Autonomous-project.jpg" alt="Embedded Project" class="project-image">
+                            <div class="project-info">
+                                <h3>IoT Device Controller</h3>
+                                <p>Smart IoT device controller with real-time monitoring capabilities.</p>
+                                <a href="#" class="github-btn">  View on GitHub   </a>
+
+                            </div>
+                        </div>
+
+                        <!-- Add microcontroller projects here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-content">
+                <h3>Get In Touch</h3>
+                <span class="tooltip">
+                    <a href="mailto:a7medelgo7ry@gmail.com" class="copy-email">a7medelgo7ry@gmail.com</a>
+                    <span class="tooltiptext" onclick="copyToClipboard('a7medelgo7ry@gmail.com', this)">Copy</span>
+                </span>
+                <span class="tooltip">
+                    <a href="tel:+201009515837" class="copy-phone">+201009515837</a>
+                    <span class="tooltiptext" onclick="copyToClipboard('+201009515837', this)">Copy</span>
+                </span>
+            </div>
+            <div class="social-links-wrapper">
+                <a href="https://linkedin.com/in/a7med-elgo7ary" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/A7med-Elgo7ary" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span>Github</span>
+                </a>
+                <a href="https://www.kaggle.com/a7medelgo7ary" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-kaggle"></i>
+                    </div>
+                    <span>Kaggle</span>
+                </a>
+                <a href="https://wa.me/201009515837" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="mailto:a7medelgo7ry@gmail.com" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span>Email</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <span>Twitter</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+        
+      
+
+        <div class="footer-bottom">
+            <p>© 2024 Ahmed Elgohary | Built with <span>❤️</span> | Egypt</p>
+        </div>
+    </footer>
+
+
+
+    
+   
+    <script src="JS/Home.js"></script>
+</body>
+</html>

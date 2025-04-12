@@ -1,0 +1,660 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Al-Gohary Posts</title>
+    <link rel="stylesheet" href="CSS/Posts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+
+     <!-- navigation Bar-->
+     <div class="nav-container">
+        <div class="user-controls">    
+            <div class="menu-item profile">
+                <a href="profilecard.html" onclick="return false;">
+                    <img src="Images/AhmedCarton.png" alt="Profile" onclick="toggleProfileCard()" onmouseenter="showProfileCard()" onmouseleave="hideProfileCard()">
+                </a>
+            </div>
+            
+            <div id="profile-card" class="profile-card">
+                      <div class="wrapper-profile">
+                        <div class="img-area">
+                          <div class="inner-area">
+                            <img src="Images/Ahmed2.png" alt="">
+                          </div>
+                        </div>
+                        <div class="icon arrow" onclick="toggleProfileCard()"><i class="fas fa-arrow-left"></i></div>
+                        <div class="name">Ahmed Elgohay</div>
+                        <div class="about">Computer Science Engineer</div>
+                        <div class="social-icons">
+                          <a href="https://linkedin.com/in/a7med-elgo7ary" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                          <a href="https://github.com/A7med-Elgo7ary" class="github"><i class="fab fa-github"></i></a>
+                          <a href="https://www.kaggle.com/a7medelgo7ary" class="kaggle"><i class="fab fa-kaggle"></i></a>
+                          <a href="https://drive.google.com/file/d/10LLyH3M0yfqYXQGAvbNBSote1dhGwYI7/view?usp=sharing" download class="cv"><i class="fas fa-file-download"></i></a>
+                        </div>
+                    
+                        <div class="buttons">
+                          <button>
+                            <a href="https://wa.me/201009515837" class="whatsapp" style="text-decoration: none; color: inherit;">
+                              <i class="fab fa-whatsapp"></i> Message
+                            </a>
+                          </button>
+                    
+                          <button onclick="window.location.href='https://drive.google.com/file/d/1j78AMhuUczLHYNBmyHDHcd5-9IfXEmAs/view?usp=sharing';" style="text-decoration: none; color: #31344b;font-family: 'Poppins', sans-serif;">
+                            <i class="fas fa-file-pdf" style="margin-right: 5px;"></i>ATS CV
+                          </button>
+                        </div>
+                    
+                        <div class="social-share">
+                          <div class="row">
+                            <i class="far fa-heart"></i>
+                            <i class="icon-2 fas fa-heart"></i>
+                            <span>20.4k</span>
+                          </div>
+                          <div class="row">
+                            <i class="far fa-comment"></i>
+                            <i class="icon-2 fas fa-comment"></i>
+                            <span>14.3k</span>
+                          </div>
+                          <div class="row">
+                            <i class="fas fa-share"></i>
+                            <span>12.8k</span>
+                          </div>
+                        </div>
+                      </div>
+
+            </div>
+
+
+
+            <div class="menu-item Settings">             
+                <a href="#"><i class="fas fa-cog"></i></a>         
+            </div>    
+        </div>
+
+
+        
+        <nav class="menu">         
+          <div class="menu-item Home">             
+              <a href="index.Html"><i class="fas fa-home"></i> HOME</a>         
+          </div>         
+               
+          <div class="menu-item Projects">             
+              <a href="Projects.HTML"><i class="fas fa-briefcase"></i>PROJECTS</a>
+          </div>     
+          <div class="menu-item Posts">             
+              <a href="Posts.html"><i class="fas fa-pencil-alt"></i>POSTS</a>         
+          </div>     
+          <div class="menu-item About">             
+              <a href="About.html"><i class="fas fa-info-circle"></i>ABOUT</a>         
+          </div>
+      </nav>
+        
+        <div class="user-controls">    
+            
+            <div class="menu-item Settings">             
+                <a href="#"><i class="fas fa-cog"></i></a>         
+            </div>    
+            
+            <div class="menu-item profile">
+                <a href="profilecard.html" onclick="return false;">
+                    <img src="Images/AhmedCarton.png" alt="Profile" onclick="toggleProfileCard()" onmouseenter="showProfileCard()" onmouseleave="hideProfileCard()">
+                </a>
+            </div>
+            
+            <div id="profile-card" class="profile-card">
+                      <div class="wrapper-profile">
+                        <div class="img-area">
+                          <div class="inner-area">
+                            <img src="Images/Ahmed2.png" alt="">
+                          </div>
+                        </div>
+                        <div class="icon arrow" onclick="toggleProfileCard()"><i class="fas fa-arrow-left"></i></div>
+                        <div class="name">Ahmed Elgohay</div>
+                        <div class="about">Computer Science Engineer</div>
+                        <div class="social-icons">
+                          <a href="https://linkedin.com/in/a7med-elgo7ary" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                          <a href="https://github.com/A7med-Elgo7ary" class="github"><i class="fab fa-github"></i></a>
+                          <a href="https://www.kaggle.com/a7medelgo7ary" class="kaggle"><i class="fab fa-kaggle"></i></a>
+                          <a href="https://drive.google.com/file/d/10LLyH3M0yfqYXQGAvbNBSote1dhGwYI7/view?usp=sharing" download class="cv"><i class="fas fa-file-download"></i></a>
+                        </div>
+                    
+                        <div class="buttons">
+                          <button>
+                            <a href="https://wa.me/201009515837" class="whatsapp" style="text-decoration: none; color: inherit;">
+                              <i class="fab fa-whatsapp"></i> Message
+                            </a>
+                          </button>
+                    
+                          <button onclick="window.location.href='https://drive.google.com/file/d/1j78AMhuUczLHYNBmyHDHcd5-9IfXEmAs/view?usp=sharing';" style="text-decoration: none; color: #31344b;font-family: 'Poppins', sans-serif;">
+                            <i class="fas fa-file-pdf" style="margin-right: 5px;"></i>ATS CV
+                          </button>
+                        </div>
+                    
+                        <div class="social-share">
+                          <div class="row">
+                            <i class="far fa-heart"></i>
+                            <i class="icon-2 fas fa-heart"></i>
+                            <span>20.4k</span>
+                          </div>
+                          <div class="row">
+                            <i class="far fa-comment"></i>
+                            <i class="icon-2 fas fa-comment"></i>
+                            <span>14.3k</span>
+                          </div>
+                          <div class="row">
+                            <i class="fas fa-share"></i>
+                            <span>12.8k</span>
+                          </div>
+                        </div>
+                      </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="cursor"></div>
+
+
+
+
+
+
+  
+        <div class="container">
+          <!-- Header -->
+          <header>
+            <h1>Tech Knowledge Hub</h1>
+            <p class="subtitle">
+              Your Tech Library Awaits.Explore a treasure trove of books and resources in AI and beyond.         <br>     Start your journey today!
+            </p>
+          </header>
+      
+          <!-- Main Content -->
+          <main>
+            <div class="posts-grid">
+
+
+              <!-- Post 1 -->
+              <article class="post-card">
+                <div class="category-badge">AI</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="Images/Posts/AI.png" 
+                    alt="Artificial Intelligence: A Modern Approach"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                      <circle cx="12" cy="12" r="2"></circle>
+                      <circle cx="6" cy="6" r="2"></circle>
+                      <circle cx="18" cy="6" r="2"></circle>
+                      <circle cx="6" cy="18" r="2"></circle>
+                      <circle cx="18" cy="18" r="2"></circle>
+                      <line x1="12" y1="12" x2="6" y2="6"></line>
+                      <line x1="12" y1="12" x2="18" y2="6"></line>
+                      <line x1="12" y1="12" x2="6" y2="18"></line>
+                      <line x1="12" y1="12" x2="18" y2="18"></line>
+                      <line x1="6" y1="6" x2="18" y2="6"></line>
+                      <line x1="6" y1="18" x2="18" y2="18"></line>
+                    </svg>
+                    
+                    <h2>Artificial Intelligence</h2>
+                  </div>
+                  <p>Discover the fascinating world of Artificial Intelligence, where machines learn, reason, and adapt. This book reveals AI’s foundational principles and cutting-edge technologies, showcasing how it transforms industries and solves complex problems. Perfect for beginners and experts alike, it unveils the limitless potential of intelligent systems.</p>
+                  <a href="https://example.com/ai-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+
+
+
+
+
+
+
+
+
+
+              <article class="post-card">
+                <div class="category-badge">AI</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="Images/Posts/data analysis.png" 
+                    alt="Artificial Intelligence"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                      <rect x="3" y="12" width="4" height="8"></rect>
+                      <rect x="10" y="8" width="4" height="12"></rect>
+                      <rect x="17" y="4" width="4" height="16"></rect>
+                      <circle cx="10" cy="10" r="3"></circle>
+                      <line x1="12" y1="12" x2="15" y2="15"></line>
+                    </svg>
+                    
+                    <h2>Data Analysis and Preprocessing</h2>
+                  </div>
+                  <p>Unlock the power of data with this essential guide to Data Analysis and Preprocessing. From cleaning and transforming raw data to uncovering hidden patterns, this book takes you through the tools and techniques that turn messy datasets into actionable insights. Whether you're a beginner or an expert, learn how to prepare, analyze, and leverage data to drive success.</p>
+                  <a href="https://example.com/ai-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+
+
+
+
+
+
+
+
+
+
+              <article class="post-card">
+                <div class="category-badge">AI</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="Images/Posts/ml.png" 
+                    alt="Artificial Intelligence: A Modern Approach"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                      <circle cx="12" cy="12" r="3"></circle>
+                      <path d="M19.4 15a7.5 7.5 0 0 0 0-6"></path>
+                      <path d="M4.6 15a7.5 7.5 0 0 1 0-6"></path>
+                      <path d="M9 2l1.5 3.5L9 9"></path>
+                      <path d="M15 2l-1.5 3.5L15 9"></path>
+                      <path d="M2 9l3.5 1.5L9 9"></path>
+                      <path d="M22 9l-3.5 1.5L15 9"></path>
+                    </svg>                    
+                    <h2>Machine Learning</h2>
+                  </div>
+                  <p>Step into the world of Machine Learning, where algorithms learn from data to predict, classify, and optimize. This book demystifies the science behind ML, from simple linear models to complex neural networks, and shows you how to build intelligent systems that adapt and evolve. Get ready to harness the power of machines that think.</p>
+                  <a href="https://example.com/ai-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+
+
+
+
+
+
+
+
+
+
+              <article class="post-card">
+                <div class="category-badge">AI</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="Images/Posts/robot1.png" 
+                    alt="Artificial Intelligence: A Modern Approach"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"class="icon">
+                      <circle cx="6" cy="6" r="2"></circle>
+                      <circle cx="12" cy="6" r="2"></circle>
+                      <circle cx="18" cy="6" r="2"></circle>
+                      <circle cx="9" cy="12" r="2"></circle>
+                      <circle cx="15" cy="12" r="2"></circle>
+                      <circle cx="12" cy="18" r="2"></circle>
+                      <line x1="6" y1="6" x2="9" y2="12"></line>
+                      <line x1="12" y1="6" x2="9" y2="12"></line>
+                      <line x1="18" y1="6" x2="15" y2="12"></line>
+                      <line x1="12" y1="6" x2="15" y2="12"></line>
+                      <line x1="9" y1="12" x2="12" y2="18"></line>
+                      <line x1="15" y1="12" x2="12" y2="18"></line>
+                    </svg>                                    
+                    <h2>Deep Learning</h2>
+                  </div>
+                  <p>Dive deep into the revolutionary field of Deep Learning, where machines mimic the human brain to solve complex problems. Explore the inner workings of neural networks, master advanced architectures, and learn how to create models that can see, hear, and even think. This book is your gateway to the cutting edge of AI innovation.</p>
+                  <a href="https://example.com/ai-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+
+
+
+
+
+
+
+
+
+
+
+
+              <article class="post-card">
+                <div class="category-badge">AI</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="Images/Posts/nlp.png" 
+                    alt="Artificial Intelligence: A Modern Approach"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"class="icon">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                      <polyline points="17 8 12 3 7 8"></polyline>
+                      <line x1="12" y1="3" x2="12" y2="15"></line>
+                      <path d="M6 18h12"></path>
+                    </svg>                    
+                    <h2>Natural Language Processing</h2>
+                  </div>
+                  <p>Discover how machines understand and generate human language with this captivating guide to Natural Language Processing. From chatbots to language translation, this book reveals the magic behind text analysis, sentiment detection, and the latest breakthroughs in language models. Transform words into wisdom and redefine how we communicate with technology.</p>
+                  <a href="https://example.com/ai-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <article class="post-card">
+                <div class="category-badge">AI</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="Images/Posts/cv.png" 
+                    alt="Artificial Intelligence: A Modern Approach"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                      <circle cx="12" cy="12" r="4"></circle>
+                      <line x1="4" y1="4" x2="8" y2="8"></line>
+                      <line x1="20" y1="4" x2="16" y2="8"></line>
+                      <line x1="4" y1="20" x2="8" y2="16"></line>
+                      <line x1="20" y1="20" x2="16" y2="16"></line>
+                    </svg>          
+                    <h2>Computer Vision</h2>
+                  </div>
+                  <p>See the world through the eyes of machines with this groundbreaking book on Computer Vision. Learn how computers interpret images, detect objects, and even recognize faces. From self-driving cars to medical imaging, explore the technologies that are reshaping industries and pushing the boundaries of what machines can perceive.</p>
+                  <a href="https://example.com/ai-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+
+
+
+
+
+
+
+
+
+
+
+
+              <article class="post-card">
+                <div class="category-badge">AI</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="Images/Posts/flower.png" 
+                    alt="Artificial Intelligence: A Modern Approach"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"class="icon">
+                      <path d="M12 2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2"></path>
+                      <path d="M12 22a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2"></path>
+                      <path d="M2 12a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2"></path>
+                      <path d="M22 12a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2"></path>
+                      <circle cx="12" cy="12" r="2"></circle>
+                      <path d="M16 8l4-4"></path>
+                      <path d="M8 16l-4 4"></path>
+                    </svg>                       
+                    <h2>Generative AI</h2>
+                  </div>
+                  <p>Enter the creative realm of Generative AI, where machines become artists, writers, and innovators. This book explores the fascinating world of AI-generated content, from stunning visuals to compelling text, and reveals how models like GANs and transformers are revolutionizing creativity. Unleash the potential of AI to imagine, invent, and inspire.</p>
+                  <a href="https://example.com/ai-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+      
+              
+
+
+<!-- Post 2 -->
+              <article class="post-card">
+                <div class="category-badge">Security</div>
+                <div class="image-container">
+                  <div class="image-overlay"></div>
+                  <img 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" 
+                    alt="The Art of Cybersecurity"
+                  >
+                </div>
+                <div class="content">
+                  <div class="title-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                      <path d="m18 16 4-4-4-4"/>
+                      <path d="m6 8-4 4 4 4"/>
+                      <path d="m14.5 4-5 16"/>
+                    </svg>
+                    <h2>The Art of Cybersecurity</h2>
+                  </div>
+                  <p>A deep dive into modern cybersecurity practices, threat detection, and defense strategies for the digital age.</p>
+                  <a href="https://example.com/security-book" target="_blank" rel="noopener noreferrer" class="read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </a>
+                </div>
+              </article>
+
+
+
+            </div>
+          </main>
+      
+          
+        </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-content">
+                <h3>Get In Touch</h3>
+                <span class="tooltip">
+                    <a href="mailto:a7medelgo7ry@gmail.com" class="copy-email">a7medelgo7ry@gmail.com</a>
+                    <span class="tooltiptext" onclick="copyToClipboard('a7medelgo7ry@gmail.com', this)">Copy</span>
+                </span>
+                <span class="tooltip">
+                    <a href="tel:+201009515837" class="copy-phone">+201009515837</a>
+                    <span class="tooltiptext" onclick="copyToClipboard('+201009515837', this)">Copy</span>
+                </span>
+            </div>
+            <div class="social-links-wrapper">
+                <a href="https://linkedin.com/in/a7med-elgo7ary" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/A7med-Elgo7ary" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span>Github</span>
+                </a>
+                <a href="https://www.kaggle.com/a7medelgo7ary" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-kaggle"></i>
+                    </div>
+                    <span>Kaggle</span>
+                </a>
+                <a href="https://wa.me/201009515837" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="mailto:a7medelgo7ry@gmail.com" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span>Email</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <span>Twitter</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="button" target="_blank" rel="noopener noreferrer">
+                    <div class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+        
+      
+
+        <div class="footer-bottom">
+            <p>© 2024 Ahmed Elgohary | Built with <span>❤️</span> | Egypt</p>
+        </div>
+    </footer>
+    <script src="JS/Home.js"></script>
+</body>
+</html>
