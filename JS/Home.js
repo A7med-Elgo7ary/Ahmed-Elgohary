@@ -211,7 +211,7 @@ function showContactForm() {
                 <div class="form-container">
                     <div class="content-left">
                         <div class="text-container-contact">
-                            <h1 class="main-title">We’d Love to Hear From You!</h1>
+                            <h1 class="main-title">We'd Love to Hear From You!</h1>
                             <p class="description">
                                <p> 𝐖𝐡𝐞𝐭𝐡𝐞𝐫 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧, 𝐟𝐞𝐞𝐝𝐛𝐚𝐜𝐤, 𝐨𝐫 𝐣𝐮𝐬𝐭 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐬𝐚𝐲 𝐡𝐞𝐥𝐥𝐨, 𝐰𝐞'𝐫𝐞 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐥𝐢𝐬𝐭𝐞𝐧.</p>
                                <p> 𝐈 𝐚𝐦 𝐚𝐥𝐰𝐚𝐲𝐬 𝐞𝐱𝐜𝐢𝐭𝐞𝐝 𝐭𝐨 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐜𝐮𝐫𝐢𝐨𝐮𝐬 𝐦𝐢𝐧𝐝𝐬 𝐚𝐧𝐝 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐰𝐢𝐭𝐡 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠.</p>
@@ -637,22 +637,7 @@ function showContent(type) {
     
                 <div class="Image-Hover-Animation">
                     
-                    <div class="icon-image">
-                        <div class="icon">
-                            <img src="Images/gradution/friends.JPG" alt="" />
-                        </div>
-                        <div class="hover-image one">
-                            <div class="img">
-                                <img src="Images/gradution/friends.JPG" alt="" />
-                            </div>
-                            <div class="content">
-                                <div class="details">
-                                    <div class="name">the Enginering</div>
-                                    <div class="job">Fantasaa</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                    <div class="icon-image">
                         <div class="icon">
                             <img src="Images/gradution/nassar.JPG" alt="" />
@@ -1002,6 +987,87 @@ p {
         </header>
 
         <div class="courses-grid">
+
+
+             <div class="course-card">
+                <div class="glow"></div>
+                <div class="content">
+                    <div class="course-header">
+                        <i class="fas fa-star"></i>
+                        <h3>🛡️ Jr. Penetration Testing</h3>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>👨‍💻TryHackME</span>
+                    </div>
+                    <p>
+                         🔍 Reconnaissance & Intelligence Gathering
+                         🌐 Web Application Vulnerability Testing
+                         🔐 Network Security Assessment<br>
+                         🧪 Vulnerability Research & Exploitation
+                         ⚔️ Post-Exploitation Techniques
+                         📊 Security Assessment Reporting<br>
+                         🔄 Remediation Verification
+                         🛠️ Pentesting Tools Mastery
+                     </p>
+
+                    <div class="card-footer">
+                       <span class="badge">🗺️ Nmap</span>
+                       <span class="badge">🕷️ Burp Suite</span>
+                       <span class="badge">🦈 Wireshark</span>
+                       <span class="badge">💾 Exploit-DB</span>
+                       <span class="badge">🛡️ OWASP ZAP</span>
+                        <span class="badge">🛠️ Meterpreter</span>
+
+                        <a href="https://tryhackme.com/certificate/THM-VV8EXH9FPF" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                View Certificate
+                                 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="course-card">
+                <div class="glow"></div>
+                <div class="content">
+                    <div class="course-header">
+                        <i class="fas fa-star"></i>
+                        <h3>🎯 CompTIA PenTest+</h3>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>👨‍💻TryHackME</span>
+                    </div>
+                    <p>
+                        🔏 Engagement Planning & Scoping
+                        🧰 Advanced Tool Utilization
+                        🔎 Enterprise Reconnaissance<br>
+                        ⚡ Multi-vector Exploitation
+                        🕸️ Active Directory Penetration
+                        🔑 Credential Harvesting<br>
+                        🚪 Lateral Movement Techniques
+                        📝 Professional Reporting
+                     </p>
+
+                    <div class="card-footer">
+                       <span class="badge">🐍 Python</span>
+                       <span class="badge">🦊 Responder</span>
+                       <span class="badge">🦈 🌐 Shodan</span>
+                       <span class="badge">💾 📡 Recon-ng</span>
+                       <span class="badge">🔑 Hydra</span>
+                        <span class="badge">🔨 SQLmap</span>
+
+                        <a href="https://tryhackme.com/certificate/THM-HIMWSGDRUA" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                View Certificate
+                                 <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
               <div class="course-card">
                 <div class="glow"></div>
                 <div class="content">
@@ -1646,8 +1712,14 @@ p {
         }
 
         .language-icon {
-         width: 40px;
+         width: 60px;
          height: 40px;
+         object-fit: contain;
+         margin-bottom: 0.5rem;
+        }
+        .cyber-icon{
+         width: 60px;
+         height: 60px;
          object-fit: contain;
          margin-bottom: 0.5rem;
         }
@@ -2072,10 +2144,16 @@ p {
      <!-- Template 2 - Development Tools -->
      <div class="template template-2">
         <div class="skills-container">
+            <!-- General Development Tools -->
             <div class="skill-item">
                 <i class="fa-solid fa-code"></i>
                 <span>VS Code</span>
             </div>
+             <div class="skill-item">
+                <i class="fa-solid fa-code"></i>
+                <span>cursor</span>
+            </div>
+            
             <div class="skill-item">
                 <i class="fa-solid fa-terminal"></i>
                 <span>Git Bash</span>
@@ -2084,10 +2162,7 @@ p {
                 <i class="fa-brands fa-github"></i>
                 <span>GitHub</span>
             </div>
-            <div class="skill-item">
-                <i class="fa-solid fa-database"></i>
-                <span>MongoDB Compass</span>
-            </div>
+            
             <div class="skill-item">
                 <i class="fa-solid fa-box"></i>
                 <span>Docker</span>
@@ -2096,6 +2171,56 @@ p {
                 <i class="fa-solid fa-laptop-code"></i>
                 <span>Postman</span>
             </div>
+
+            <!-- AI Development Tools -->
+            <div class="skill-item">
+                <i class="fa-solid fa-brain"></i>
+                <span>Jupyter Notebook</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Google Colab</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>kaggle</span>
+            </div>
+
+            <div class="skill-item">
+                <i class="fa-solid fa-microchip"></i>
+                <span>TensorFlow</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-robot"></i>
+                <span>PyTorch</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-network-wired"></i>
+                <span>Keras</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-cloud"></i>
+                <span>Hugging Face</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-flask"></i>
+                <span>Scikit-learn</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-chart-bar"></i>
+                <span>MLflow</span>
+            </div>
+
+            <!-- Cybersecurity Tools -->
+            <div class="skill-item">
+                <i class="fa-solid fa-shield-alt"></i>
+                <span>Kali Linux</span>
+            </div>
+            
+            
+            
+            
+            
         </div>
      </div>
 
@@ -2140,42 +2265,71 @@ p {
      <div class="template template-4">
         <div class="content">
             <div class="skills-hexagon">
-                
-                <!-- Hexagon sections for programming languages -->
-                <div class="skill-hex">
-                    <img src="./Images/programing/Python.svg" alt="Python Logo" class="language-icon">
-                    <span>Python</span>
-                </div>
-                <div class="skill-hex">
-                    <img src="./Images/programing/C++.svg" alt="C++ Logo" class="language-icon">
-                    <span>C++</span>
-                </div>
-                <div class="skill-hex">
-                    <img src="./Images/programing/C.svg" alt="C Logo" class="language-icon">
-                    <span>C</span>
-                </div>
-                <div class="skill-hex">
-                    <img src="./Images/programing/Dart.svg" alt="Dart Logo" class="language-icon">
-                    <span>Dart</span>
-                </div>
-                <div class="skill-hex">
-                   <img src="./Images/programing/Sql.svg" alt="SQL Logo" class="language-icon">
-                   <span>SQL</span>
-               </div>
-               <div class="skill-hex">
-                    <img src="./Images/programing/html5.svg" alt="HTML5 Logo" class="language-icon">
-                    <span>HTML5</span>
-                </div>
-                <div class="skill-hex">
-                    <img src="./Images/programing/css3.svg" alt="CSS 3 Logo" class="language-icon">
-                    <span>CSS3</span>
-                </div>
-                <div class="skill-hex">
-                    <img src="./Images/programing/javascript.svg" alt="JavaScript Logo" class="language-icon">
-                    <span>JavaScript</span>
-                </div>
-                
-            </div>
+               <!-- Hexagon sections for Cybersecurity Tools -->
+
+    <!-- Network Security -->
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/wireshark.svg" alt="Wireshark Logo" class="cyber-icon">
+        <span>Wireshark</span>
+    </div>
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/nmap.svg" alt="Nmap Logo" class="cyber-icon">
+        <span>Nmap</span>
+    </div>
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/snort.svg" alt="Snort Logo" class="cyber-icon">
+        <span>Snort</span>
+    </div>
+
+    <!-- Penetration Testing -->
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/metasploit.svg" alt="Metasploit Logo" class="cyber-icon">
+        <span>Metasploit</span>
+    </div>
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/burpsuite.svg" alt="Burp Suite Logo" class="cyber-icon">
+        <span>Burp Suite</span>
+    </div>
+  
+
+    <!-- SIEM -->
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/splunk.svg" alt="Splunk Logo" class="cyber-icon">
+        <span>Splunk</span>
+    </div>
+
+
+    <!-- Forensics -->
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/icon.ico" alt="Autopsy Logo" class="cyber-icon">
+        <span>Autopsy</span>
+    </div>
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/ghidra.svg" alt="Ghidra Logo" class="cyber-icon">
+        <span>Ghidra</span>
+    </div>
+
+    <!-- Wireless Security -->
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/aircrack-ng.jpg" alt="Aircrack-ng Logo" class="cyber-icon">
+        <span>Aircrack-ng</span>
+    </div>
+  
+    
+
+    <!-- Social Engineering -->
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/setoolkit.svg" alt="SET Logo" class="cyber-icon">
+        <span>SET</span>
+    </div>
+    <div class="skill-hex">
+        <img src="./Images/cybersecurity/beef.svg" alt="BeEF Logo" class="cyber-icon">
+        <span>BeEF</span>
+    </div>
+
+    
+</div>
+
         </div>
      </div>
 
@@ -2393,7 +2547,7 @@ p {
             </div>
             <div class="card-details">
                 <ul>
-                    <li><strong>Practical Penetration Testing and Red Team Techniques:</strong> Gained hands-on experience in penetration testing through TryHackMe’s CompTIA Pentest+ and JR Penetration Tester paths; covered enumeration, vulnerability scanning, exploitation, and post-exploitation phases.</li>
+                    <li><strong>Practical Penetration Testing and Red Team Techniques:</strong> Gained hands-on experience in penetration testing through TryHackMe's CompTIA Pentest+ and JR Penetration Tester paths; covered enumeration, vulnerability scanning, exploitation, and post-exploitation phases.</li>
                     <li><strong>Security Operations Center (SOC) Level 1 & 2 Experience:</strong> Completed SOC Level 1 and SOC Level 2 paths on TryHackMe, focusing on log analysis, incident detection, SIEM tools, and real-world SOC workflows for threat identification and response.</li>
                     <li><strong>Cybersecurity Fundamentals & Risk Management:</strong> Earned Google Cybersecurity Specialization on Coursera; covered security foundations, threat modeling, Linux & SQL for cybersecurity, incident response, and automated security tasks using Python.</li>
                     <li><strong>Ethical Hacking and Network Defense Skills:</strong> Completed EC-Council Specialization (Coursera) in Ethical Hacking Essentials and Network Defense Essentials; learned attack techniques, ethical hacking methodology, and defense strategies to protect systems.</li>
